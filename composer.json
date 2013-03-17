@@ -1,0 +1,25 @@
+{
+    "name": "skrobek/flatstrap",
+    "type": "symfony-bundle",
+    "description": "Flat version of Twitter Boostrap",
+    "keywords": ["bootstrap", "twitter"],
+    "homepage": "https://github.com/skrobek/flatstrap",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pawel Skroban",
+            "email": "kontakt@pawelskroban.pl"
+        }
+    ],
+    "require": {
+        "php": ">=5.*"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": "2.*"
+    },
+    "autoload": {
+        "psr-0": { "Flatstrap": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "FlatstrapBundle"
+}
